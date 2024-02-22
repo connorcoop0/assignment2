@@ -1,0 +1,30 @@
+Git Lab tutorials completed 2/22/2024
+Github account created 2/21/2023
+
+1. $ git commit -a
+[master 912b033] Created docs folder and status.txtx
+ 1 file changed, 6 insertions(+)
+ create mode 100644 docs/status.txt
+
+2. # of commits = 8, command = git rev-list --all --count 
+
+3. 21 minutes ago, command = git log
+
+4. branches are useful for bug fixes to provide a seperate environment to fix bugs without chaning ongoing devlopment, and 
+   branches allow multiple developers to work on new features without affecting the stability of the main codebase
+
+5. git log shows the commit history while git status reveals the current working changes and staging status
+
+6. git log -- Vehicle.h
+
+7. git log --grep="file"
+
+8. Inheritance: A way for one class to get all the stuff from another class
+   Polymorphism: Lets us use a single action to mean different things for different objects
+   Encapsulation: Keeping the details hidden inside and only showing what's necessary outside
+
+9. Dictator and Lieutenants Workflow: A single leader integrates changes from managers of different project parts
+   Integration Manager Workflow: An integration manager merges contributions directly from all developers into the main project
+
+10. In the "Dictator and Lieutenants" workflow, dividing the work among several leaders helps manage lots of developers' work better,
+    avoiding the jam that can happen when one person tries to handle everything, like in a "Centralized"workflow.
